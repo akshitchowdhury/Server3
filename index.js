@@ -10,3 +10,9 @@ app.get("/",(req,res)=>{
     res.send("<h1> Welcome to 3001 </h1>")
 
 })
+
+app.post("/send", (req, res)=>{
+
+    res.sendStatus(201) 
+})
+
